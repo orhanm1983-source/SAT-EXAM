@@ -1,1 +1,252 @@
-
+{
+  "title": "Module 1 – No Calculator (22 Questions)",
+  "sections": [
+    {
+      "type": "mcq",
+      "items": [
+        {
+          "id": "M1-Q1",
+          "title": "No Calculator Q1 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q2",
+          "title": "No Calculator Q2 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q3",
+          "title": "No Calculator Q3 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q4",
+          "title": "No Calculator Q4 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q5",
+          "title": "No Calculator Q5 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q6",
+          "title": "No Calculator Q6 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q7",
+          "title": "No Calculator Q7 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q8",
+          "title": "No Calculator Q8 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q9",
+          "title": "No Calculator Q9 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q10",
+          "title": "No Calculator Q10 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q11",
+          "title": "No Calculator Q11 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q12",
+          "title": "No Calculator Q12 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q13",
+          "title": "No Calculator Q13 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q14",
+          "title": "No Calculator Q14 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q15",
+          "title": "No Calculator Q15 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q16",
+          "title": "No Calculator Q16 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q17",
+          "title": "No Calculator Q17 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q18",
+          "title": "No Calculator Q18 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q19",
+          "title": "No Calculator Q19 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q20",
+          "title": "No Calculator Q20 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q21",
+          "title": "No Calculator Q21 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "id": "M1-Q22",
+          "title": "No Calculator Q22 — Multiple Choice",
+          "answer": "A",
+          "letters": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        }
+      ]
+    }
+  ]
+}
