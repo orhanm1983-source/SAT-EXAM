@@ -4,10 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SAT Math – Practice Test</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <!-- CSS -->
+  style.css
+
+  <!-- EmailJS -->
+  https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js</script>
 </head>
+
 <body>
+
   <header>
     <h1>TALAL ALKBLAWI – SAT TRAINER</h1>
     <h3>77047586</h3>
@@ -15,30 +21,35 @@
 
   <div id="topbar">
     <div>Exam: SAT Math (Module 1 + Module 2)</div>
-    <div>Time Remaining: <span id="timer">70:00</span></div>
+   >Time Remaining: <span id="timer">70:00</span></div>
   </div>
 
   <div id="app" class="container">
+
     <section id="start">
       <h2>Student Information</h2>
+
       <div>
         <label class="small">Full Name</label><br>
         <input type="text" id="s_name" placeholder="Enter your name">
       </div>
+
       <div style="margin-top:10px;">
         <label class="small">Email</label><br>
         <input type="email" id="s_email" placeholder="name@example.com">
       </div>
+
       <div style="margin-top:10px;">
         <label class="small">Phone (with country code)</label><br>
         <input type="text" id="s_phone" placeholder="e.g., +97477000000">
       </div>
+
       <div style="margin-top:16px;">
         <button id="btnStart">Start Exam (70 minutes)</button>
       </div>
     </section>
 
-    <section id="exam">
+    <section id="exam" style="display:none;">
       <div id="module"></div>
       <div id="nav"></div>
     </section>
@@ -46,10 +57,13 @@
     <footer>
       &copy; 2026 SAT Practice – For training purposes only.
     </footer>
+
   </div>
 
-  <script src="js/config.js"></script>
-  <script src="js/email.js"></script>
-  <script src="js/script.js"></script>
+  <!-- JS FILES -->
+  js/config.js</script>
+  js/email.js</script>
+  js/script.js</script>
+
 </body>
 </html>
