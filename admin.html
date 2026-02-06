@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin – Submissions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Admin – Submissions (Local)</h1>
+    <h3>Displays last 50 locally stored submissions</h3>
+  </header>
+  <div class="container">
+    <p><strong>Note:</strong> This page reads data from browser <code>localStorage</code> on the device used for submission preview only. Email delivery is handled by EmailJS.</p>
+    <div id="list"></div>
+    <button id="download">Download TXT of latest</button>
+  </div>
+  <script>
+    function render(){
+      const list = document.getElementById('list');
+      const items = JSON.parse(localStorage.getItem('submissions')||'[]');
+      if(items.length===0){ list.innerHTML='<p>No local submissions found.</p>'; return; }
+      list.innerHTML = items.map((it,idx)=>{
+        const p = it.payload;
+        return `<div class="question"><div class="q-title">#${idx+1} – ${new Date(it.ts).toLocaleString()}</div>
+        <div>Name: ${p.student.name} | Email: ${p.student.email} | Phone: ${p.student.phone}</div>
+        <div>Score: ${p.correct}/${p.total} | Time Used: ${p.timeUsed} min</div></div>`
+      }).join('');
+    }
+    document.getElementById('download').addEventListener('click',()=>{
+      const items = JSON.parse(localStorage.getItem('submissions')||'[]');
+      if(items.length===0) return;
+      const latest = items[0].payload;
+      const lines = [];
+      lines.push(`Student: ${latest.student.name}`);
+      lines.push(`Email: ${latest.student.email}`);
+      lines.push(`Phone: ${latest.student.phone}`);
+      lines.push(`Score: ${latest.correct}/${latest.total}`);
+      lines.push(`Time Used: ${latest.timeUsed} min`);
+      lines.push('');
+      lines.push('Answers:');
+      latest.answers.forEach(a=>lines.push(`${a.id}: ${a.answer}`));
+      const blob = new Blob([lines.join('\n')], {type:'text/plain'});
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'latest_submission.txt';
+      a.click();
+    });
+    render();
+  </script>
+</body>
+</html>
